@@ -1,4 +1,5 @@
-import: command not found
+import os
+import glob
 import time
 import RPi.GPIO as GPIO
 
