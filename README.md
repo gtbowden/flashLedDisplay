@@ -8,7 +8,7 @@ For those with poor eyesight like me without my eyeglasses on,  it works well fr
 First read https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20  </br>
 If you are not using  GPIO 21 for the LED, then adjust the value of LED = 21 to the GPIO number you are using
 
-Here is the debug output for the outside sensor reading 19687 raw. Each line is a flash of the LED
+Here is the debug output for the outside sensor reading 19687 raw (1.9687 Celsius) . Each line is a flash of the LED
 
 firstloop for tens digit. i= 10000</br>
 </br>
