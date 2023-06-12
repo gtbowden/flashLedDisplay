@@ -42,8 +42,8 @@ while True:
         i=i+10000
 
     #flash LED short for temperature one's digit, e.g. 5 times for 24790
-    i=(outsidetemp % 10000)-10000
-    while i>0:
+    i=(outsidetemp % 10000)
+    while i>1000:
         GPIO.output(LED,GPIO.HIGH)
         time.sleep(.2)
         #print ("LED off")
