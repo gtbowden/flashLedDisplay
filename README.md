@@ -10,18 +10,18 @@ If you are not using  GPIO 21 for the LED, then adjust the value of LED = 21 to 
 
 Here is the debug output for the outside sensor reading 19687 raw. Each line is a flash of the LED
 
-firstloop for tens digit. i= 10000
-
-Secondloop for ones digit. i= 9687
-Secondloop for ones digit. i= 8687
-Secondloop for ones digit. i= 7687
-Secondloop for ones digit. i= 6687
-Secondloop for ones digit. i= 5687
-Secondloop for ones digit. i= 4687
-Secondloop for ones digit. i= 3687
-Secondloop for ones digit. i= 2687
-Secondloop for ones digit. i= 1687
-
- 2023 6 11 , 18 : 24   inside= 24437 outside= 19687
+firstloop for tens digit. i= 10000</br>
+</br>
+Secondloop for ones digit. i= 9687 </br>
+Secondloop for ones digit. i= 8687 </br>
+Secondloop for ones digit. i= 7687 </br>
+Secondloop for ones digit. i= 6687 </br>
+Secondloop for ones digit. i= 5687 </br>
+Secondloop for ones digit. i= 4687 </br>
+Secondloop for ones digit. i= 3687 </br>
+Secondloop for ones digit. i= 2687 </br>
+Secondloop for ones digit. i= 1687 </br>
+</br>
+ 2023 6 11 , 18 : 24   inside= 24437 outside= 19687 
 
 
