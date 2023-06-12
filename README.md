@@ -7,3 +7,21 @@ This Raspberry Pi (RPI) python program reads a Dallas DS18B20 temperature sensor
 For those with poor eyesight like me without my eyeglasses on,  it works well from across the room.  </br>
 First read https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20  </br>
 If you are not using  GPIO 21 for the LED, then adjust the value of LED = 21 to the GPIO number you are using
+
+Here is the debug output for the outside sensor reading 19687 raw. Each line is a flash of the LED
+
+firstloop for tens digit. i= 10000
+
+Secondloop for ones digit. i= 9687
+Secondloop for ones digit. i= 8687
+Secondloop for ones digit. i= 7687
+Secondloop for ones digit. i= 6687
+Secondloop for ones digit. i= 5687
+Secondloop for ones digit. i= 4687
+Secondloop for ones digit. i= 3687
+Secondloop for ones digit. i= 2687
+Secondloop for ones digit. i= 1687
+
+ 2023 6 11 , 18 : 24   inside= 24437 outside= 19687
+
+
