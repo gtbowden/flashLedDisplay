@@ -34,10 +34,10 @@ while True:
     i=10000
     while i< outsidetemp: #flash once for each tens count, e.g. twice for 24790
         GPIO.output(LED,GPIO.HIGH)
-        time.sleep(.5)
+        time.sleep(.7)
         #print ("LED off",i)
         GPIO.output(LED,GPIO.LOW)
-        time.sleep(.5)
+        time.sleep(.7)
         print("firstloop",i)
         i=i+10000
 
@@ -45,10 +45,10 @@ while True:
     i=(outsidetemp % 10000)
     while i>1000:
         GPIO.output(LED,GPIO.HIGH)
-        time.sleep(.2)
+        time.sleep(.3)
         #print ("LED off")
         GPIO.output(LED,GPIO.LOW)
-        time.sleep(.2)
+        time.sleep(.3)
         print("Secondloop",i)
         i=i-1000
 
